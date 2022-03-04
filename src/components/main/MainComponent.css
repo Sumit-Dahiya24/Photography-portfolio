@@ -1,0 +1,9 @@
+.main-div {
+  width: 100vw;
+  height: 100vh;
+  min-height: 500px;
+  /* min-width: 510px; */
+  background-image: url('https://images.pexels.com/photos/1655817/pexels-photo-1655817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  background-position: center;
+}

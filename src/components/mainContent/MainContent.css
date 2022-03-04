@@ -1,0 +1,59 @@
+.main-content-container {
+  width: 80vw;
+  margin: auto;
+  margin-top: 2rem;
+  color: var(--white);
+  text-align: center;
+}
+.profile-image-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 5px solid var(--white);
+}
+.profile-title h1 {
+  margin: 0.5rem;
+  color: var(--darkGreen);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.description {
+  margin: auto;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  max-width: 300px;
+  opacity: 0.4;
+  background-color: var(--lightGrey);
+  text-transform: uppercase;
+  color: var(--white);
+  font-weight: 400;
+}
+.description2 {
+  margin: auto;
+  margin-top: 3rem;
+  max-width: 60vw;
+}
+@media only screen and (max-width: 500px) {
+  .description2 {
+    width: 100%;
+  }
+}
+.social-media-icons {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  padding: 5px;
+}
+.social-media-icons-item {
+  margin-right: 1rem;
+}
+.social-media-icons-item:hover {
+  /* border: 2px solid black; */
+  font-size: 2.6rem;
+}
+@media only screen and (max-width: 410px) {
+  .social-media-icons {
+    visibility: hidden;
+  }
+}

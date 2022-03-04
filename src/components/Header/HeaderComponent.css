@@ -1,0 +1,25 @@
+.main-header {
+  width: 100vw;
+}
+.header {
+  margin: auto;
+  padding: 1rem;
+  max-width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: var(--white);
+}
+.header-Title {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.header-content {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-item:hover {
+  font-weight: 700;
+  /* border-bottom: 2px solid var(--darkGreen); */
+}

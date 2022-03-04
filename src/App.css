@@ -1,0 +1,10 @@
+:root {
+  --white: #ddd;
+  --dark: #111;
+  --darkGrey: #474b4f;
+  --lightGrey: #6b6e70;
+  --lightGreen: #86c232;
+  --darkGreen: #61892f;
+  --transition: all 0.5s ease-in-out;
+  --transition2: all 0.2s ease-in-out;
+}
